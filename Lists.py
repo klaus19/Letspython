@@ -46,50 +46,46 @@ except IndexError:
 
     # LENGTH OF ARRAYLIST
 
-    me = [1,2,"te","jas"]
+    me = [1, 2, "te", "jas"]
     print(len(me))
 
     # append()
-    mt=["te","ks"]
+    mt = ["te", "ks"]
     mt.append("eng")
     print(mt)
 
     # insert()
-    yup = ['a','z']
-    yup.insert(1,'t')
+    yup = ['a', 'z']
+    yup.insert(1, 't')
     print(yup)
 
     # pop()
     # removes last element from list
-    mup = [1,6,7,'ret']
+    mup = [1, 6, 7, 'ret']
     mup.pop()
     print(mup)
 
-    mup.pop(1) #deletes element at index 0
+    mup.pop(1)  # deletes element at index 0
     print(mup)
 
-    moppy = [1,3,4,"yet"] #deleets the index value
+    moppy = [1, 3, 4, "yet"]  # deletes the index value
     del moppy[1]
     print(moppy)
 
-    del moppy[0:2] # del:
+    del moppy[0:2]  # del:
     print(moppy)
 
     # reverse()
-    list = [1,3,4,5,8]
+    list = [1, 3, 4, 5, 8]
     list.reverse()
     print(list)
 
     # remove()
 
-    lina = [4,5,6,7]
+    lina = [4, 5, 6, 7]
     lina.remove(4)
     print(lina)
 
-    #index_search
-    leta=[1,3,5,6]
+    # index_search
+    leta = [1, 3, 5, 6]
     print(leta.index(5))
-
-
-
-
