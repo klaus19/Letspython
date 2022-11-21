@@ -116,5 +116,11 @@ except:
     list_list_to_set = dict(books_list_list)
     print(list_list_to_set)
 
+    # we want to convert a set into a dictionary, we need to have each element as a tuple of length 2.
+
+books_tuple_set = {('1', 'Book 1'), ('2', 'Book 2'), ('3', 'Book 3')}
+tuple_set_to_dict = dict(books_tuple_set)  # Converting dict to set
+print(tuple_set_to_dict)
+
 
 
