@@ -90,5 +90,18 @@ words = {
 print('a' in words)
 print('z' not in words)
 
+# converting dictionary into tuples we use items() method
+
+points = {
+      'Festim':10,
+      'Tejas':20,
+      'Lion':30
+}
+
+elements = points.items()
+
+print(elements)
+
+
 
 
