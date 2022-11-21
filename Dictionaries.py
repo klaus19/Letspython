@@ -102,6 +102,13 @@ elements = points.items()
 
 print(elements)
 
+# modifying the dictionary using comprehension
+
+points_modified = {key: value + 10 for(key,value) in elements}
+print(points_modified)
+
+
+
 
 
 
